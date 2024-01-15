@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+}
+
+.header > img {
+    width: 11.125rem;
+height: 3.5625rem;
+flex-shrink: 0;
+}
+
+.navbar {
+    display: flex;
+    gap:3rem
+}
+.navbar a {
+    color: #000;
+font-family: Libre Baskerville;
+font-size: 1.25rem;
+font-style: normal;
+line-height: normal;
+text-decoration: none;
+margin-top: 1.5rem;
+}
+.navbar a.active , .navbar a:hover{
+    font-weight: 700;
+}
+
+.navDroite {
+    display: flex;
+    gap: 2rem;
+}
+.navbar .profil img {
+    width: 3.75rem;
+height: 3.75rem;
+flex-shrink: 0;
+}
+.banniere {
+    background-image: url('img/ArticleImage1.png'); /* Remplacez par le chemin de votre image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Optionnel : centrez l'image horizontalement */
+    height: 37rem;
+    
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.featuredArticle {
+    width: 31.8125rem;
+height: 30.1875rem;
+flex-shrink: 0;
+background: #FFF;
+margin-left: 5rem;
+display: flex;
+flex-direction: column;
+padding: 1.75rem 2.5rem 6rem 2.44rem;
+
+}
+.article {
+flex-shrink: 0;
+color: rgba(28, 28, 28, 0.50);
+font-family: Open Sans;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.title {
+    width: 26.875rem;
+height: 5.1875rem;
+flex-shrink: 0;
+color: #000;
+font-family: Libre Baskerville;
+font-size: 2.0625rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.auteurDate {
+    display: flex;
+    gap: 1rem;
+    
+}
+.auteur {
+    width: 7rem;
+height: 1.375rem;
+flex-shrink: 0;
+color: rgba(28, 28, 28, 0.50);
+font-family: Open Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.date {
+    width: 12.375rem;
+height: 1.375rem;
+flex-shrink: 0;
+color: rgba(28, 28, 28, 0.50);
+font-family: Open Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.texte {
+    width: 26.875rem;
+height: 9.4375rem;
+flex-shrink: 0;
+color: #000;
+font-family: Open Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; /* 150% */
+}
