@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+._profil {
+    width: 8.625rem;
+height: 11.9375rem;
+flex-shrink: 0;
+border-radius: 0.9375rem;
+border: 1px solid #F3F3F3;
+background: #FFF;
+margin-left: 105.5rem;
+margin-top: -31rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 2rem;
+}
+._profil .nom {
+    width: 6.4375rem;
+height: 1.1875rem;
+flex-shrink: 0;
+color: #1C1C1C;
+font-family: Open Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+._profil .arobase {
+    width: 6.4375rem;
+height: 1.1875rem;
+flex-shrink: 0;
+color: rgba(28, 28, 28, 0.80);
+font-family: Open Sans;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+._profil .menu-profile {
+    width: 6.125rem;
+    height: 1.375rem;
+flex-shrink: 0;
+    color: #1C1C1C;
+font-family: Open Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
