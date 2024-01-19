@@ -240,6 +240,7 @@ background: url(img/tour.png),  50% / cover no-repeat, #C4C4C4;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
+    width: 97%;
     height: 37rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -252,7 +253,7 @@ background: url(img/tour.png),  50% / cover no-repeat, #C4C4C4;
 }
 .featuredArticle2 {
     position: relative;
-    left: 72rem;
+    left: 50%;
     top: 3.38rem;
 }
 .div-flex .nature .img-nature {
@@ -263,7 +264,7 @@ background: url(img/nature.png), 50% / cover no-repeat, #C4C4C4;
 }
 .section-flex {
     display: flex;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     gap: 10rem;
 }
