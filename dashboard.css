@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+.dashboard {
+    display: grid;
+    grid-template-columns: 14rem 65rem;
+}
+.black {
+    width: 14rem;
+height: 46.1875rem;
+flex-shrink: 0;
+background: #3B3F44;
+}
+.white{
+    width: 65rem;
+height: 46.1875rem;
+flex-shrink: 0;
+background: #e31f1f;
+}
+.flex-black {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    gap: 2rem;
+}
+.dash {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.dash p {
+flex-shrink: 0;
+color: #FFF;
+font-family: "Open Sans";
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.user img{
+    margin-right: 1.6rem;
+    width: 1.875rem;
+height: 1.875rem;
+flex-shrink: 0;
+}
+.book img {
+    margin-right: 1rem;
+}
+.box img {
+    margin-right: 0.8rem;
+}
+.settings img {
+    margin-right: 1.4rem;
+}
