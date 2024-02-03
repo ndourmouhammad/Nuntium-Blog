@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+.dashboard {
+    display: grid;
+    grid-template-columns: 14rem 65rem;
+}
+.black {
+    width: 14rem;
+height: 46.1875rem;
+flex-shrink: 0;
+background: #3B3F44;
+}
+.white{
+    width: 65rem;
+height: 46.1875rem;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+
+}
+.flex-black {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    gap: 2rem;
+}
+.dash {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+.dash p {
+flex-shrink: 0;
+color: #FFF;
+font-family: "Open Sans";
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 2rem;
+}
+.user img{
+    margin-right: 1.6rem;
+    width: 1.875rem;
+height: 1.875rem;
+flex-shrink: 0;
+}
+.book img {
+    margin-right: 1rem;
+}
+.box img {
+    margin-right: 0.8rem;
+}
+.settings img {
+    margin-right: 1.4rem;
+}
+.white .header {
+    margin-top: 25px;
+    margin-right: 30px;
+    display: flex;
+    justify-content:end;
+    gap: 2rem;
+}
+.bande-blanche {
+    background: #FAFAFA;
+    border: solid 1px #FAFAFA;
+    margin-top: 22px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40rem;
+}
+.bande-blanche .left {
+    width: 153px;
+height: 30px;
+flex-shrink: 0;
+color: #000;
+font-family: "Libre Baskerville";
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.bande-blanche .right {
+    width: 111px;
+height: 41px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 2px solid #1C1C1C;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+color: #000;
+text-align: center;
+font-family: "Open Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.trois {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.trois .posts {
+    border-radius: 10px;
+border: 2px solid rgba(28, 28, 28, 0.35);
+display: flex;
+flex-direction: column;
+width: 176px;
+height: 107px;
+flex-shrink: 0;
+justify-content: center;
+padding: 2px;
+}
+.posts p {
+    color: #1C1C1C;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.ligne2 {
+    display: flex;
+    margin-top: -45px;
+    gap: 25px;
+}
+.ligne2 p {
+    color: #1C1C1C;
+font-family: "Libre Baskerville";
+font-size: 33px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.posts h3 {
+    color: rgba(28, 28, 28, 0.50);
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+margin-top: -20px;
+display: flex;
+justify-content: end;
+}
+.trois .post-3 {
+    width: 500px;
+}
+.trois .post-3 h1 {
+    color: #1C1C1C;
+text-align: center;
+font-family: "Libre Baskerville";
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: -5px;
+}
+.trois .post-3 h3 {
+    margin-right: 10px;
+}
+.white h2 {
+    color: #1C1C1C;
+font-family: "Libre Baskerville";
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 173px;
+height: 26px;
+flex-shrink: 0;
+margin-left: 37px;
+}
